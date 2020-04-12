@@ -20,3 +20,10 @@ numero_1=float (input ('Ingresa el primer valor: '))
 numero_2=float(input('Ingresa el segundo valor: '))
 total=numero_1+numero_2
 print('Total de la suma es de:','{:0.2f}'.format(total))
+
+print ('Multiplicacion')
+num1_multi=float (input('Ingresa el primer valor'))
+num2_multi=float (input('Ingresa el segundo valor'))
+
+Total_multi=num1_multi*num2_multi
+print('El total de la multi es de: ','{:0.3f}'.format(Total_multi))
