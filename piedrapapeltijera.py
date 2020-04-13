@@ -12,28 +12,31 @@ else:
     print('Computadora: Tijera')
 
 #Piedra
-if jugador==1 and numero_aleatorio==1:
-    print('Empate')
-elif jugador==1 and numero_aleatorio==2:
-    print('Gano la computadora')
-elif jugador==1 and numero_aleatorio==3:
-    print('Gano el usuario')
+if jugador==1:
+    if numero_aleatorio==2:
+        print('Empate')
+    elif numero_aleatorio==2:
+        print('Gano la computadora')
+    elif numero_aleatorio==3:
+        print('Gano el usuario')
 
 #Papel
-elif jugador==2 and numero_aleatorio==2:
-    print('Empate')
-elif jugador==2 and numero_aleatorio==3:
-    print('Gano la computadora')
-elif jugador==2 and numero_aleatorio==1:
-    print('Gano el usuario')
+elif jugador==2:  
+    if numero_aleatorio==2:
+        print('Empate')
+    elif numero_aleatorio==3:
+        print('Gano la computadora')
+    elif numero_aleatorio==1:
+        print('Gano el usuario')
 
 #Tijera
-elif jugador==3 and numero_aleatorio==3:
-    print('Empate')
-elif jugador==3 and numero_aleatorio==1:
-    print('Gano la computadora')
-elif jugador==3 and numero_aleatorio==2:
-    print('Gano el usuario')
+elif jugador==3: 
+    if numero_aleatorio==3:
+        print('Empate')
+    elif numero_aleatorio==1:
+        print('Gano la computadora')
+    elif numero_aleatorio==2:
+        print('Gano el usuario')
 
 else:
     print('Da un numero en el rango')
