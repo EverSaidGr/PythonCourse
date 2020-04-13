@@ -4,5 +4,7 @@
 print ('Calcular el IVA')
 precio=float(input ('Da el precio del producto: '))
 
-Iva=precio*0.16
-print('El iva del producto es: ',Iva)
+iva=precio*0.16
+total=precio+iva
+print('El iva del producto es: ',iva)
+print('El precio del producto con IVA es: ', total)
